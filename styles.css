@@ -1,3 +1,28 @@
 h1 { 
-    color: red;
+    color: black;
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
 }
+
+h2 {
+    color: black;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#Career {
+background-color: lightgreen;
+color: black;
+padding: 10px;
+font-size: 20px;
+}
+
+h1, h2 {
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+ }

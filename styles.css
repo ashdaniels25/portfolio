@@ -1,9 +1,72 @@
+body { background-color: #afdff2;}
+
+#Contactpage {
+    background-color: #082a38;
+    font-family: 'WaltographRegular';
+    font-size: 30px; 
+}
+
+img.Gronk {
+    display: block;
+    border-color: #209acb;
+    border-radius: 8px;
+    position: relative;
+    right: 30px;
+    top: -60px;
+}
+img.scuba {
+position: relative;
+right: 250px;
+left: 650px;
+top: -550px;  
+display: block;
+border-color: #209acb;
+border-radius: 8px;
+}
+
+img.Walt {
+    position: relative;
+    right: 250px;
+    left: 650px;
+    top: -475px;  
+    display: block;
+    border-color: #209acb;
+    border-radius: 8px;
+
+}
+
+img.Graduation {
+    position: relative;
+    right: 500px;
+    left: 1350px;
+    top: -1005px;  
+    display: block;
+    border-color: #209acb;
+    border-radius: 8px;
+}
+img.align-center {
+    display: block;
+    margin: 0px auto;
+    border-radius: 8px;
+    border-color: #209acb;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px
+}
+img.medium {
+    width: 300px;
+    height: 300px;
+}
+
 h1 { 
     color: black;
-    background-color: lightgreen;
+    background-color: #209acb;
     color: black;
-    padding: 10px;
-    font-size: 40px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 h2 {
@@ -14,15 +77,219 @@ h2 {
     background-color: yellow;
 }
 
+#Contact {
+    background-color: #209acb;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: content-box;
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center;
+    }
 #Career {
-background-color: lightgreen;
+background-color: #209acb;
 color: black;
 padding: 10px;
-font-size: 20px;
+font-size: 25px;
 }
 
-h1, h2 {
+#Projects {
+    display: inline-block;
+    background-color: #209acb;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: content-box;
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center;
+    border-spacing: 5px;
+    margin-top: 10px;
+        }
+
+    #About {
+    background-color: #209acb;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: content-box;
+    width: 1635px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center; 
+    position: relative;
+    right: 10px;
+    left: 250px;
+    top: -190px;  
+    font-size: 25px;
+}
+
+#Blog {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: content-box;
+    width: 1600px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center; 
+    position: relative;
+    right: 10px;
+    left: 250px;
+    top: -190px;  
+    font-size: 25px;
+}
+
+#Blog2 {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: content-box;
+    width: 1604px;
+    height: 70px;
+    border-radius: 8px;
+    text-align: center; 
+    position: relative;
+    right: 10px;
+    left: 250px;
+    top: -190px;  
+    font-size: 25px;
+}
+
+h1, h2, h3, h4, h5,p,#Blog2 {
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
- }
+}
+
+#Gronktxt {
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left;
+}
+
+#Scubatxt {
+    position: relative;
+    top: -500px;
+    left: -25px;
+    text-align: center;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+}
+#Gradtxt {
+    position: relative;
+    top: -940px;
+    text-align: right;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+}
+
+#Qualities {
+    background-color: #209acb;
+    color: #551A8B;
+    padding: 10px;
+    font-size: 40px;
+    box-sizing: content-box;
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    position: relative;
+    top: -1410px;
+    left: 250px;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    border-spacing: 5px;
+    margin-top: 20px;
+}
+
+#Hobby {
+    background-color: #209acb;
+    color: #551A8B;
+    padding: 10px;
+    font-size: 40px;
+    box-sizing: content-box;
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+    position: relative;
+    top: -850px;
+    left: 1250px;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    border-spacing: 5px;
+    margin-top: 20px; }
+
+    #Qlist { 
+        position: relative;
+        top: -1350px;
+        margin-left: 250px;
+        font-family: 'WaltographRegular';
+        font-size: 30px;
+        margin-bottom: -800px;
+    }
+
+    #HobbyList { 
+        position: relative;
+        top: -800px;
+        margin-left: 1230px;
+        font-family: 'WaltographRegular';
+        font-size: 30px;
+        margin-bottom: 300px; }
+
+    #Disneytxt {
+        position: relative;
+        top: -400px;
+        margin-left: 450px;
+        font-family: 'WaltographRegular';
+        font-size: 30px; }
+h5 {
+    position: relative;
+    top: -60px;
+    color: black;
+    color: black;
+    font-size: 50px;
+}
+
+h3 {
+    color: black;
+    background-color: #209acb;
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+}
+h4 {
+    color: black;
+    background-color: #209acb;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+}
+a[href*="com"] {
+    color: #551A8B;
+    font-family: 'WaltographRegular';
+    font-size: 20px;
+}
+
+p { 
+    font-size: 25px;
+}
+
+#Footer {  position: relative;
+    top: -200px;
+    margin-left: 800px;
+    margin-bottom: -1000px;
+    font-family: 'WaltographRegular';
+    font-size: 15px; }
